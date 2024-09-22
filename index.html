@@ -1,0 +1,25 @@
+<!-- Staging area: nó có nhiệm vụ sắp xếp lại các lần đây sang qua nó thì có lần nào nó code mới nhất thì nó lấy
+tức là nó sắp xếp lấy cái mới nhất tức là cái file lần đầu thì nó sẽ bỏ đi -->
+<!--gif cài phiên bản nào cũng được cho dù nó thấp vẫn chạy được bình thường không có gì khác biệt -->
+<!--sau này đi làm ta không cần quan tâm thư mục git này là gì cho nên thằng git để thư mục này là thư mục ẩn nên bài-13 ta không nhìn thấy nó -->
+<!--không cần quan tâm những những file trong thư mục git -->
+<!-- nếu ở ngoài để thư mục git bên trong có thư mục con cũng để thư mục git chắc chắn sẽ lỗi
+dùng các câu lệnh deploy để đẩy lên github sẽ bị lỗi. ta chỉ chạy git init này một làn thôi
+trong một project phải là fordel ngoài cùng. ở các thư mục con không được chạy câu
+lệnh git init. trong vd: BAI_13 chính là thư mục góc bên trong là thư mục con không được chạy
+câu lệnh git init -->
+<!--nếu tạo nhầm ta chỉ cần vào thư mục đó xóa cái .git đi là ok -->
+<!--mũi tên lên là lấy câu lệnh gần nhất ... -->
+
+<!-- nó có màu đỏ nghĩa là nó đang ở khu vực working directory.
+khi ở khu vực working directory:  thì ta rõ git status thì cái file đó sẽ có màu đỏ-->
+<!--nó màu xanh nghĩa nó đang ở khu vực .-->
+<!--để đẩy các file đó sang khu vực Staging area ta sử dụng câu lệnh gitaddten_file -->
+<!--git add index.html. là sẽ add được file index.html sang khu vực  Staging area-->
+
+<!--nếu ta git add index.html vào khu vực staging khi nó đẩy vào đó nó sẽ sắp xếp lại bằng cách
+nó sẽ lấy file mới. nếu trùng tên file thì nó sẽ lấy file mới nhất mới được add vào -->
+
+<!--nếu mà nó ở khu vực working mà chuyển sang khu vực repository không được đâu. phải từ khu vực staging mới 
+chuyển sang được. ta phải làm tuần tự là từ kv working sau đó đẩy sang khu vực staging xong xuôi hết rồi
+mới đẩy sang khu vực repository  -->
